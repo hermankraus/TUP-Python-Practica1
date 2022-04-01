@@ -1,10 +1,12 @@
-variable_01 = False
-variable_02 = True
-variable_03 = 80
-variable_04 = "90"
-variable_05 = 100
+numero_01 = 123
+numero_02 = 456
+numero_03 = 789
 
 # COMPLETAR - INICIO
 
-resultado= variable_03 or not variable_01 or not variable_02 or not variable_04 or not variable_05 
-print(resultado)
+suma_de_numeros_string= str(numero_01) + str(numero_02) + str(numero_03)
+print(suma_de_numeros_string)
+
+# COMPLETAR - FIN
+
+assert suma_de_numeros_string == "123456789"
