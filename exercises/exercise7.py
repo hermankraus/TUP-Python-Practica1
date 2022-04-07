@@ -93,7 +93,7 @@ tupla = (73, 45, 344, 3434, 2)
 
 # COMPLETAR - INICIO
 
-
+primer, *rest = tupla
 
 # COMPLETAR - FIN
 
