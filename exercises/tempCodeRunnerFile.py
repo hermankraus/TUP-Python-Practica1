@@ -1,9 +1,7 @@
-bananas = 100
-naranjas = 400
-manzanas = 300
-peras = 30
+notas = [True, True, False, True, True, True, True, True, True, True, True, True]
 
 # COMPLETAR - INICIO
-comparar_frutas = bananas < naranjas/2 < 2*manzanas <= peras**2
+tiene_todo_aprobado = all(notas)
 # COMPLETAR - FIN
-print(comparar_frutas)
+
+assert not tiene_todo_aprobado
