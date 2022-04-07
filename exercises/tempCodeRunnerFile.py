@@ -1,11 +1,9 @@
-variable_01 = "Le pagué "
-variable_02 = 2
-variable_03 = " pesos que le debía a Ezequiel, me faltan $"
-variable_04 = 4
+bananas = 100
+naranjas = 400
+manzanas = 300
+peras = 30
 
 # COMPLETAR - INICIO
-strings_concatenados = f"{variable_01}{variable_02}{variable_03}{variable_04}"
+comparar_frutas = bananas < naranjas/2 < 2*manzanas <= peras**2
 # COMPLETAR - FIN
-print(strings_concatenados)
-
-assert strings_concatenados == "Le pagué 2 pesos que le debía a Ezequiel, me faltan $4"
+print(comparar_frutas)
