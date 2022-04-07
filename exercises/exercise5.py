@@ -12,6 +12,8 @@ variable_03 = "a todos!"
 
 # COMPLETAR - INICIO
 
+strings_concatenados=variable_01+variable_02+variable_03
+
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Buenos días a todos!"
@@ -29,6 +31,8 @@ usar operadores).
 
 # COMPLETAR - INICIO
 
+strings_concatenados="¡Mamá "+"estoy concatenando "+"strings!"
+
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
@@ -45,6 +49,9 @@ variable_02 = 600
 variable_03 = " pesos a un amigo."
 
 # COMPLETAR - INICIO
+
+variable_02=str(variable_02)
+strings_concatenados=variable_01+variable_02+variable_03
 
 # COMPLETAR - FIN
 
@@ -64,6 +71,8 @@ variable_04 = " años."
 variable_05 = "Ezequiel"
 
 # COMPLETAR - INICIO
+
+
 
 # COMPLETAR - FIN
 

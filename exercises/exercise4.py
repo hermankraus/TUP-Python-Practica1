@@ -51,6 +51,8 @@ numero_hexadecimal = "0x6f540"
 # COMPLETAR - INICIO
 
 
+multiplicacion_de_numeros = int(numero_binario, 2) * int(numero_octal, 8) * int(numero_hexadecimal, 16)
+
 
 # COMPLETAR - FIN
 
@@ -68,6 +70,8 @@ numero_03 = "0o1234"
 numero_04 = 654
 
 # COMPLETAR - INICIO
+
+resultado_resta = int(numero_01) - int(numero_02, 16) - int(numero_03, 8) - int(numero_04) 
 
 # COMPLETAR - FIN
 

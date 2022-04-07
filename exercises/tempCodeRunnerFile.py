@@ -1,12 +1,12 @@
-numero_01 = 123
-numero_02 = 456
-numero_03 = 789
+lista = ["esta", "mañana", "sali", "a", "correr"]
 
 # COMPLETAR - INICIO
 
-suma_de_numeros_string= str(numero_01) + str(numero_02) + str(numero_03)
-print(suma_de_numeros_string)
+lista=tuple(lista)
+a, b, c, d, e= lista
+string_concatenado=(f"{a} {b} {c} {d} {e}")
 
+print(string_concatenado)
 # COMPLETAR - FIN
 
-assert suma_de_numeros_string == "123456789"
+assert string_concatenado == "esta mañana sali a correr"
