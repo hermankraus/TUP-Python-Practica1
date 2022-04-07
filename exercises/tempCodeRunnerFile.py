@@ -1,7 +1,7 @@
-notas = [True, True, False, True, True, True, True, True, True, True, True, True]
+diccionario = {} and {"Nombre": "Alberto Paz", "DNI": 12365855}
 
 # COMPLETAR - INICIO
-tiene_todo_aprobado = all(notas)
+variable_06 = bool(diccionario)
 # COMPLETAR - FIN
 
-assert not tiene_todo_aprobado
+assert variable_06 is False
