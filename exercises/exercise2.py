@@ -34,6 +34,7 @@ area_cuadrado = pow(lado_cuadrado, 2)
 
 area_mayor_a_cinco = not area_cuadrado < 5
 
+area_mayor_a_cinco = lado_cuadrado>5 or not(area_cuadrado<5)
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
@@ -51,6 +52,7 @@ numero_2 = 50
 
 resultado = ( numero_1 % 7 == 0) and ( numero_2 % 7 == 1)
 
+resultado = numero_1 % 7 == 0 and numero_2 % 7 != 0
 # COMPLETAR - FIN
 
 assert resultado
@@ -72,6 +74,7 @@ variable_05 = 100
 
 resultado= variable_03 or not variable_01 or not variable_02 or not variable_04 or not variable_05 
 print(resultado)
+resultado = variable_03 or variable_01/0 or variable_02/0 or variable_04/0 or variable_05/0 
 # COMPLETAR - FIN
 
 assert resultado == 80

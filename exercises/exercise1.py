@@ -12,6 +12,7 @@ lado_cuadrado = 5
 
 area_cuadrado= lado_cuadrado*lado_cuadrado
 
+area_cuadrado = lado_cuadrado * lado_cuadrado
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
@@ -27,6 +28,7 @@ lado_cuadrado = 5
 
 area_cuadrado= lado_cuadrado**2
 
+area_cuadrado = lado_cuadrado ** 2
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
@@ -42,6 +44,7 @@ lado_cuadrado = 5
 
 pow(5 , 2)
 
+area_cuadrado = pow(lado_cuadrado, 2)
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
